@@ -5,6 +5,6 @@ export function Search() {
     const { search, onChangeSearch } = useContacts();
 
     return (
-        <Input onChange={onChangeSearch} value={search} placeholder='Buscar contato...'/>
+        <Input onChange={onChangeSearch} value={search} placeholder='Search..'/>
     )
 }

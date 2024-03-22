@@ -1,8 +1,8 @@
 .input {
     width: 100%;
-    background: #383838;
-    border: 2px solid #383838;
-    color: white;
+    background: #ffffff;
+    border: 2px solid #b2b2b2;
+    color: rgb(163, 163, 163);
     padding: 0px 30px;
     border-radius: 999px;
     transition: 0.4s; 
@@ -10,6 +10,6 @@
 
     &:focus {
         outline: none;
-        border-color: #4b9d5e;
+        border-color: #848484;
     }
 }

@@ -6,9 +6,9 @@
     gap: 20px;
 
     button {
-        background: #4b9d5e;
+        background: #ffffff;
         border: none;
-        color: white;
+        color: rgb(119, 119, 119);
         padding: 10px 30px;
         border-radius: 999px;
         display: flex;
@@ -19,7 +19,7 @@
         justify-content: center;
 
         &:hover {
-            background: #64c97c;
+            background: #2c2c2c;
         }
 
         &.circle {
@@ -51,6 +51,6 @@
 
     a, span {
         font-weight: bold;
-        color: #4b9d5e;
+        color: #a1a1a1;
     }
 }

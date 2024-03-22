@@ -9,18 +9,19 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #383838;
+    background: #777777;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #4b9d5e;
+    background: #909090;
     border-radius: 999px;
   }
 }
 
 body {
-  background-color: #181818;
-  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  background-color: #ffffff;
+  background-image: url("https://getwallpapers.com/wallpaper/full/b/8/b/1086000-beautiful-simple-backgrounds-1920x1200.jpg");
+  background-size: 100%;
   min-height: 100vh;
 }
 
@@ -31,6 +32,7 @@ body {
 }
 
 main {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -39,6 +41,8 @@ main {
   width: 100%;
   max-width: 700px;
   padding: 50px 16px;
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 10px;
 }
 
 a {

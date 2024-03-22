@@ -19,13 +19,13 @@ export function List() {
                     <div>
                         {search ? (
                             <>
-                                <strong>Nenhum contato encontrado...</strong>
-                                <p>Busque por outro ou adicione um novo</p>
+                                <strong>Contact is not founded</strong>
+                                <p>Try again or add contact </p>
                             </>
                         ) : (
                             <>
-                                <strong>Sua lista está vazia...</strong>
-                                <p>Adicione seus contatos para começar a interagir</p>
+                                <strong>Your Contact List is empty</strong>
+                                <p>Add your contacts</p>
                             </>
                         )}
                     </div>
