@@ -4,7 +4,6 @@ import { Search } from "./components/Search";
 import { ContactsContextProvider } from "./contexts/ContactsContext";
 
 function App() {
-
   return (
     <ContactsContextProvider>
       <main>

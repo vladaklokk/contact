@@ -2,7 +2,6 @@ import { Contact } from '../Contact'
 import styles from './list.module.scss'
 import { FaSadTear } from "react-icons/fa"
 import { useContacts } from '../../hooks/useContacts'
-
 export function List() {
     const { filteredContacts, search } = useContacts();
 

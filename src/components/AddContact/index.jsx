@@ -40,7 +40,6 @@ export function AddContact() {
     function onChangePhone(event) {
         setPhone(event.target.value)
     }
-
     return(
         <section className={styles.container}>
             <header className={styles.header}>

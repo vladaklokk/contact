@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from "react";
-
 export const ContactsContext = createContext({});
 
 export function ContactsContextProvider({ children }) {

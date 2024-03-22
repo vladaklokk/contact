@@ -5,7 +5,6 @@ import { useContacts } from '../../hooks/useContacts';
 
 export function Contact(props) {
     const { deleteContact } = useContacts();
-
     return(
         <div className={styles.container}>
             <div>
